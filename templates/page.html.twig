@@ -1,0 +1,49 @@
+{% include '@mica/menu.twig' %}
+
+<div class="page-wrapper">
+
+    <div class="relative menu-space">
+        {% if node.field_image.0.entity.uri.value %}
+            <img src="{{ file_url(node.field_image.0.entity.uri.value) }}" class="img-responsive">
+            <div class="image-caption"><h2>{{ node.field_image_caption.0.value|raw }}</h2></div>
+        {% endif %}
+    </div>
+
+    {% if page.pre_content %}
+        <section class="container-fluid pre-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ page.pre_content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+    <section class="container-fluid whitea">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 content">
+                    {{ page.content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if page.post_content %}
+        <section class="container-fluid post-content bottomspace">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ page.post_content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+</div>
+
+{% include '@mica/footer.twig' %}
+

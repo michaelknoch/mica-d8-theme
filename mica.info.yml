@@ -1,0 +1,15 @@
+name: mica
+type: theme
+description: A cuddly theme that offers extra fluffiness.
+core: 8.x
+libraries:
+  - mica/styling
+
+regions:
+  header: menu
+  pre_content: pre_content
+  content: Content  # the content region is required
+  post_content: post_content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
+  footer_menu: 'Footer Menu'

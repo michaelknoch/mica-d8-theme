@@ -1,0 +1,56 @@
+{% include '@mica/menu.twig' %}
+
+
+<div class="page-wrapper">
+
+    <div class="relative menu-space">
+        <div class="work-background blog-background blackwhite">
+        </div>
+    </div>
+
+
+    {% if page.pre_content %}
+        <section class="container-fluid pre-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ page.pre_content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+
+    <section class="container-fluid whitea bottomspace">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 title title-more-padding">
+                    <h2>Weil wir <span class="yellow">das</span> tun</h2>
+                    <h3>was wir am besten können</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 content">
+                    {{ page.content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if page.post_content %}
+        <section class="container-fluid post-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ page.post_content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+</div>
+
+{% include '@mica/footer.twig' %}

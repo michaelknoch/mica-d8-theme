@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="356.9px" height="163.4px" viewBox="0 0 356.9 163.4" style="enable-background:new 0 0 356.9 163.4;" xml:space="preserve"
+	>
+<font horiz-adv-x="1000">
+<!-- Copyright (c) 2010 by Svetoslav Simov. All rights reserved. -->
+<!-- Copyright: Copyright 2016 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="NexaLight" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="238"/>
+<glyph unicode="I" horiz-adv-x="208" d="M118,0l0,700l-53,0l0,-700z"/>
+<glyph unicode="M" horiz-adv-x="818" d="M675,0l53,0l0,700l-66,0l-265,-408l-268,408C103,700 91,700 65,700l0,-700l54,0l0,622l270,-410l18,0l268,410z"/>
+</font>
+
+	<rect x="-13.1" style="fill:none;" width="238" height="168"/>
+<text transform="matrix(1 0 0 1 -13.1118 139.9995)"><tspan x="0" y="0" style="fill:#282828; font-family:'NexaLight'; font-size:200; letter-spacing:-16;">M</tspan><tspan x="147.6" y="0" style="fill:#282828; font-family:'NexaLight'; font-size:200;">I</tspan></text>
+<polygon style="fill:#282828;" points="198.9,130 198.9,10 279.9,10 279.9,0 198.9,0 193.6,0 188.4,0 188.4,140 193.6,140 
+	198.9,140 356.9,140 356.9,130 "/>
+<g>
+	<polygon style="fill:#FFE600;" points="280.2,23.4 268.4,23.4 205.6,163.4 217.2,163.4 274.2,33.8 331.4,163.4 343,163.4 	"/>
+</g>
+</svg>

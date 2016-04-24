@@ -1,0 +1,15 @@
+<div class="container-fluid menu-wrapper">
+    <div class="container menu">
+        <a href="/"><img src="{{ base_path ~ directory }}/img/logo.svg" class="logo"></a>
+
+        <div class="burgerbutton visible-xs">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="mainnav" class="menu-inner navbar-collapse collapse">{{ page.header }}</div>
+    </div>
+</div>
